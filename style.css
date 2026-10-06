@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.webcenter{
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 0px auto;
+    max-width:  1550px;
+}
+.header{
+    flex-wrap: wrap;
+    margin-top: 18px;
+    display: flex;
+    gap: 35px;
+}
+
+.car {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.house{
+    
+    margin-bottom: 15px;
+     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 11px;
+}
+
+a{
+     
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.login{
+    font-size : 25px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 720px;
+}
+.input{
+     flex-wrap: wrap;
+    font-size: 20px;
+    outline: none;
+    text-align: top;
+    border: 0px solid white;
+    width: 320px;
+    height: 40px;
+    margin-bottom:1px;
+    margin-right:10px;
+}
+.search{
+   
+    margin: 20px;
+    width: 370px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 6px;
+     display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap:1px;
+}
+.inputs{
+  display: flex;
+}
+.input2{
+    
+    text-align: start;
+    font-size: 18px;
+    width: 870px;
+    height: 50px;
+    margin: 10px;
+}
+.sell{
+    margin-left: 30px;
+    margin-top: 8px;  
+    font-size: 25px;
+    padding: 5px 25px;
+    border: 5px solid transparent;
+    border-radius: 30px;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #FFD43B 50%, #4285F4 50%) border-box;
+}
+.searchbox{
+    line-height: 2px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-width: 20px;
+    margin-left: 1010px;
+    margin-bottom: 3px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+}
+.links{
+     flex-wrap: wrap;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.sproduct {
+    margin-top: 100px;
+    margin-left: 25px;
+   flex-wrap: wrap;
+    gap: 70px;
+    display: flex;
+}
+
+.box {
+     flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.houses1 {
+    
+    display: flex;
+    gap: 20px;
+    height: 800px;
+    margin-right: 100px;
+
+}
+ .houses2{
+    flex-wrap: wrap;
+        height: 500px;
+        width: 350px;
+        border: 2px solid  black;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .container{
+        
+        margin-right: 40px;
+    }
